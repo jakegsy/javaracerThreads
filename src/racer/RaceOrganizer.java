@@ -18,7 +18,7 @@ public class RaceOrganizer {
         System.out.println("Coming in at #" +
                 ++this.raceRank
                 + " " + printMe);
-        if(this.runnersStillRunning == 0){
+        if(--this.runnersStillRunning == 0){
             System.out.println("The race is over.");
         }
     }
